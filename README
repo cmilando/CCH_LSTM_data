@@ -13,7 +13,16 @@ TODO:
 -- what about all the LSTM things: more epochs, different structure of the LSTM,
    different loss function, activation, tuning mechanisms, dropout
 
+TO THINK ABOUT:
+
+-- we want to talk about prediction vs estimation. and why/when using DLNM-based
+estimates for prediction (i.e., gasp's recent paper) would cause you to miss
+underestimate etc
+-- maybe this isn't a paper, and its a commentary
+
 PAPER OUTLINE
 
--- this becomes the "simulation case" of the early methods
+-- this becomes the "simulation case" of the early methods (or maybe a commentary)
 -- and then we apply it in OPTUM for the main results
+-- difference in magnitude of predicted health impacts using LSTM vs DLNM (vs ARIMA) compared to OPTUM data
+
