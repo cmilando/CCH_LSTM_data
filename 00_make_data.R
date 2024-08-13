@@ -34,6 +34,8 @@ plot(rr$MONTH_sin[1:365], type = 'l')
 rr_simple <- rr[, c('date', 'DOW_sin', 'MONTH_sin', 'death', 'temp',
                     'dptp', 'rhum', 'pm10', 'o3')]
 
+
+
 write.csv(rr_simple, "rr_simple.csv", quote = F, row.names = F)
 
 

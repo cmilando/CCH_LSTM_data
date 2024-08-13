@@ -1,0 +1,19 @@
+TOFIX:
+
+-- the HOUR INDEX thing seems off for the plot
+
+TODO:
+
+-- does it predict better with cross bases
+-- or what about decomposed variables (why is decomposed )
+-- how much better is the performance in the training period? what about the test period
+-- dummy variables in LSTM ?
+-- what is the influence of the window period? this is the same as talking about lags
+   or the the case-crossover structure
+-- what about all the LSTM things: more epochs, different structure of the LSTM,
+   different loss function, activation, tuning mechanisms, dropout
+
+PAPER OUTLINE
+
+-- this becomes the "simulation case" of the early methods
+-- and then we apply it in OPTUM for the main results
