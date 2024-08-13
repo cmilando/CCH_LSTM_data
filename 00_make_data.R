@@ -34,7 +34,7 @@ plot(rr$MONTH_sin[1:365], type = 'l')
 rr_simple <- rr[, c('date', 'DOW_sin', 'MONTH_sin', 'death', 'temp',
                     'dptp', 'rhum', 'pm10', 'o3')]
 
-write.csv(rr_simple, "rr_simple.csv")
+write.csv(rr_simple, "rr_simple.csv", quote = F, row.names = F)
 
 
 ex <- read.csv("https://raw.githubusercontent.com/SusmitSekharBhakta/Stock-market-price-prediction/main/final_data_adj.csv")
