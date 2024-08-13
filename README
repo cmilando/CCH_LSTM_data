@@ -1,10 +1,12 @@
 TOFIX:
 
--- the HOUR INDEX thing seems off for the plot
+-- the HOUR INDEX thing seems off for the plot? why does the 1995 peak seem mismatched.
+-- re-scaling the output so its in the right units
 
 TODO:
 
 -- does it predict better with cross bases
+-- could it predict better if we include monthly estimates of historical death (like based on the previous year)
 -- or what about decomposed variables (why is decomposed )
 -- how much better is the performance in the training period? what about the test period
 -- dummy variables in LSTM ?
@@ -18,7 +20,9 @@ TO THINK ABOUT:
 -- we want to talk about prediction vs estimation. and why/when using DLNM-based
 estimates for prediction (i.e., gasp's recent paper) would cause you to miss
 underestimate etc
--- maybe this isn't a paper, and its a commentary
+-- the point is less to know the association of temp or etc
+-- the point is using environmental variables to predict acute cases more accurately
+-- maybe this isn't a paper, and its a commentary?
 
 PAPER OUTLINE
 
