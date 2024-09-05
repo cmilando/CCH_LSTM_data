@@ -5,6 +5,7 @@ TOFIX:
 
 TODO:
 
+-- MAKE A FIGURE THAT SHOWS 1995
 -- does it predict better with cross bases
 -- could it predict better if we include monthly estimates of historical death (like based on the previous year)
 -- or what about decomposed variables (why is decomposed )
